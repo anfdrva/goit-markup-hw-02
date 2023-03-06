@@ -1,10 +1,11 @@
 :root{
     --first-main-color: #2E2F42;
-    --second-main-color: #434455
+    --second-main-color: #434455; 
 }
 
 body{
-    font-family:'Roboto', sans-serif ;
+    font-family:'Roboto', sans-serif;
+    color: #434455;
 }
 
 .link{
@@ -19,8 +20,9 @@ body{
 
 .header-logo{
     font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -38,9 +40,10 @@ body{
 }
 
 .header-contact-link{
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-main-color);
+    color: var(--second-main-color); 
 }
 
 .header-link:hover,
@@ -93,7 +96,7 @@ body{
 .qualities-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-main-color);
+    color: var(--second-main-color); 
 }
 
 /* -----------------CREATION------------------- */
@@ -127,7 +130,7 @@ body{
 .team-worker-position{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-main-color);
+    color: var(--second-main-color); 
 }
 
 /* --------------------FOOTER------------------ */
@@ -188,5 +191,5 @@ body{
 .portfolio-card-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-main-color);
+    color: var(--second-main-color); 
 }
