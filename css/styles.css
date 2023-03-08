@@ -1,11 +1,16 @@
 :root{
     --first-main-color: #2E2F42;
-    --second-main-color: #434455; 
+    --second-main-color: #434455;
+    --third-main-color: #4D5AE5;
+    --hover-color: #404BBF;
+    --white-color: #FFFFFF;
+    --cloud-color: #F4F4FD;
+    --cornflower-color: #E7E9FC;
 }
 
 body{
     font-family:'Roboto', sans-serif;
-    color: #434455;
+    /* color: #434455; */
 }
 
 .link{
@@ -25,7 +30,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--third-main-color);
 }
 
 .header-logo-part{
@@ -43,7 +48,7 @@ body{
 .header-contact-link{
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
+    /* font-style: normal; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-main-color); 
@@ -51,12 +56,12 @@ body{
 
 .header-link:hover,
 .header-link:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .header-contact-link:hover,
 .header-contact-link:focus:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .address{
@@ -75,7 +80,7 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-btn{
@@ -84,14 +89,14 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-color);
+    background-color: var(--third-main-color);
     cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: #404BBF;
+    background-color: var(--hover-color);
 }
 
 /* -----------------QUALITIES------------------ */
@@ -160,7 +165,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--third-main-color);
 }
 
 .footer-logo-part{
@@ -169,13 +174,13 @@ body{
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--cloud-color);
 }
 
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--cornflower-color);
 }
 
 /* ------------------PORTFOLIO-------------------- */
@@ -186,15 +191,15 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    color: var(--third-main-color);
+    background-color: var(--cloud-color);
     cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--hover-color);
 }
 
 .portfolio-card-title{
